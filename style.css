@@ -1,0 +1,50 @@
+
+body {
+  background-image: linear-gradient(to left, blue,green);
+  font-family: 'Dancing Script', cursive;
+}
+p{
+  color: burlywood;
+}
+h1 {
+  color: rgb(47, 120, 119);
+}
+table, tr, th, td {
+  border: 1px  solid rgb(0, 0, 0);
+}
+table, tr, th, td {
+ border: 1px solid black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #47356e;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3a33c0;
+  animation: button1 0.5s;
+  animation-iteration-count: infinite;
+}
+#button1:hover {
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+
